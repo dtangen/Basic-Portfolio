@@ -1,22 +1,30 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html>
 <head>
 	<title>Contact</title>
-	<h1>Dan Tangen</h1><h1>Contact</h1><h3>About</h3><h3>Contact</h3><h3>Portfolio</h3>
+		<link rel="stylesheet" type="text/css" href=".\assets\css\style.css">
+	<div class="header">
+		<h1 class="dantangen">Dan Tangen</h1><!-- <a href="./Basic-Portfolio/portfolio.html"> --><h3 class="portfolio">Portfolio</h3><!-- </a><a href="./Basic-Portfolio/contact.html"> --><h3>Contact</h3><!-- </a><a href="./Basic-Portfolio/index.html"> --><h3>About</h3></a>	
+	</div>
 </head>
-<body>
-<form action="/action_page.php">Name<br>
-<input type="text" name="name"><br>
-Email<br>
-<input type="text" name="email"><br>
-Message<br>
-<input type="text" name="message">
-<input type="submit" name="submit">
-</form>
-<h2>Connect with Me</h2>
-<a href="https://github.com/dtangen"><img src="C:\Users\dtang\Documents\KU Boot Camp\Assignment-1\Basic-Portfolio\assets\images\githubicon.png" alt="Github" class=logo" style="width:42px;height:42px;border:0;"></a>
-	<a href="https://www.linkedin.com/in/dan-tangen-716a718b/"><img src="C:\Users\dtang\Documents\KU Boot Camp\Assignment-1\Basic-Portfolio\assets\images\linkedinicon.jpg" alt="LinkedIn" class="logo" style="width:42px;height:42px;border:0;"></a>
-	<a href="https://stackoverflow.com/users/8126195/dan?tab=profile"><img src="C:\Users\dtang\Documents\KU Boot Camp\Assignment-1\Basic-Portfolio\assets\images\stackoverflowicon.png" alt="Stack Overflow" class="logo" style="width:42px;height:42px;border:0;"></a>
+<body class="body">
+	<div class="aboutmecontent">
+		<h1 id="aboutme">Contact</h1>
+			<form action="/action_page.php">Name<br>
+				<input type="text" name="name" placeholder="John Smith"><br>
+					Email<br>
+				<input type="text" name="email" placeholder="example@gmail.com"><br>
+					Message<br>
+				<input type="text" name="message" class="message">
+				<input type="submit" name="submit" class="submit">
+			</form>
+	</div>
+	<div class="connect">
+		<h2 id="connectwithme">Connect with Me</h2>
+		<a href="https://github.com/dtangen"><img src=".\assets\images\githubicon.png" alt="Github" class="logo"></a>
+		<a href="https://www.linkedin.com/in/dan-tangen-716a718b/"><img src=".\assets\images\linkedinicon.jpg" alt="LinkedIn" class="logo"></a>
+		<a href="https://stackoverflow.com/users/8126195/dan?tab=profile"><img src=".\assets\images\stackoverflowicon.png" alt="Stack Overflow" class="logo"></a>
+	</div>
 </body>
+	<footer class="footer">@Copyright 2017 Dan Tangen</footer>
 </html>

@@ -1,0 +1,152 @@
+.header {
+	border: 1px;
+	border-style: solid;
+	border-color: #cccccc;
+	background-color: white;
+	padding: 9px;
+	margin-bottom: 20px;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+}
+
+.dantangen {
+	background-color: #4aaaa5;
+	color: white;
+	border: 0px;
+	width: 200px;
+	text-align: center;
+	padding: 10px;
+	margin-left: 150px;
+	display: inline;
+}
+
+h3 {
+	float: right;
+	display: inline;
+	padding-right: 25px;
+}
+
+.portfolio {
+	padding-right: 300px;
+}
+
+.body {
+	background-image: url(http://i.imgur.com/WScNrMQ.png);
+	background-size: 100%;
+}
+
+h1 {
+	color: #4aaaa5;
+}
+
+.aboutmecontent {
+	border: 0px;
+	background-color: #ffffff;
+	margin-left: 150px;
+	width: 650px;
+	padding: 20px;
+	display: inline-block;
+	color: #777777;
+}
+
+#aboutme {
+	border-bottom: solid;
+	padding: 10px;
+	border-color: #777777;
+}
+
+#connectwithme {
+	border-bottom: solid;
+	padding-bottom: 10px;
+	border-color: #777777;
+}
+
+.profilepicture {
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin-right: 10px;
+}
+.description {
+	float: right;
+	margin-left: : 5px;
+}
+
+.connect {
+	float: right;
+	position: relative;
+	margin-top: 20px;
+	margin-right: 275px;
+	border: 0px;
+	background-color: #ffffff;
+	color: #4aaaa5;
+	padding: 10px;
+	text-align: center;
+	width: 270px;
+}
+.logo {
+	width:42px;
+	height:42px;
+	border:0;
+	padding: 5px;
+}
+
+.portfolioimage {
+	width: 200px;
+	height: 200px;
+	border: 0;
+}
+
+.message {
+	height: 100px;
+}
+
+input {
+	width: 650px;
+}
+
+.submit {
+	width: 100px;
+	columns: #4aaaa5;
+}
+
+.image {
+	position: relative;
+	width: 200px;
+	float: left;
+	padding: 5px;
+}
+
+#imagetext {
+	position: absolute;
+	bottom: 5px;
+	text-align: center;
+	background-color: #4aaaa5;
+	color: white;
+	border: solid;
+	border: 0px;
+	width: 200px;
+	border-color: #4aaaa5;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+
+
+
+.footer {
+	text-align: center;
+	vertical-align: center;
+	border-top: solid;
+	border-width: 10px;
+	border-color: #4aaaa5;
+	background-color: #666666;
+	padding: 25px;
+	position: fixed;
+	width: 100%;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	color: white;
+}
